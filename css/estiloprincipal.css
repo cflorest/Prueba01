@@ -33,11 +33,12 @@ a:hover{
     height: 80px;
     float: left;
     background: red;
+    text-align: center;
 }
 #menu{
     width: 30%;
     height: 500px;
-    float: left;
+    float: right;
     background: green;
 }
 #contenido{
