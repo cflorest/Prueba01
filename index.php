@@ -33,7 +33,7 @@ and open the template in the editor.
         <div id="contenedor">
             <div style="text-align: center"id="titulo">HOSTALRIOAMAZONAS RESERVATION ONLINE</div>
             <div id="menu"><?php include('menu.php');?></div>
-            <div id="contenido"></div>
+            <div id="contenido">“WELCOME TO HOSTAL RIO AMAZONAS”</div>
             <footer>Antonio Varas #666, Fono de contacto: 000000000</footer>
         </div>
         

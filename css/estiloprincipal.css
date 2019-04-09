@@ -45,5 +45,9 @@ a:hover{
    width: 70%;
    height: 500px; 
    float: left;
+
    background: yellow;
+   text-align: center;
+   
+   
 }
