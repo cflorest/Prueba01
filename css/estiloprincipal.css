@@ -30,9 +30,9 @@ a:hover{
 }
 #titulo{
     width:100%;
-    height: 80px;
+    height: 30px;
     float: left;
-    background: red;
+    background: blue;
     text-align: center;
 }
 #menu{
