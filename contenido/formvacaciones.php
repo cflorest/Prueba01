@@ -28,16 +28,16 @@ and open the template in the editor.
             <div id="menu"><?php include('../menu.php');?></div>
                     <div id="contenido">
                         <form class="vacaciones form-horizontal" action="../lib/recepcionvacaciones.php" method="post">
-                            <div class="form-group"> 
+                            <div class="form-group" requiered=""> 
                                 <label class="col-sm-2 control-label">Rut:</label> 
                                 <div class="col-sm-10">
                                     <input class="form-control input-sm" id="rut" name="rut" type="text">
                                 </div>
                             </div>
-                            <br>Nombre: <input id="nombre" name="nombre" type="text">
-                            <br>Cargo: <input id="cargo" name="cargo" type="text">
-                            <br>Fecha de inicio:<input id="fechaini" name="fechaini" type="text">
-                            <br>Días totales:<input id="diastotales" type="text">
+                            <br>Nombre: <input id="nombre" name="nombre" type="text" required="Ingrese Nombre">
+                            <br>Tipo Atencion: <input id="cargo" name="cargo" type="text" required="Ingrese tipo de Atención">
+                            <br>Fecha de Atención<input id="fechaini" name="fechaini" type="text" required="Ingrese Fecha de Atención">
+                            <br>Nombre Especialista Responsable<input id="diastotales" type="text" required="Ingrese Nombre de Especialista">
                             <br>Comentario<textarea id="comentario" rows="7" cols=20>   </textarea>
                             <input type="submit" value="Enviar"  >                     
                         </form>
